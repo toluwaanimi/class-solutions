@@ -12,11 +12,19 @@ public class Question1 {
         question1.biggestNumberBySorting(array);
     }
 
+    /**
+     * @description  using Arrays.sort to sort the array and print the largest number
+     * @param array
+     */
     public void biggestNumberUsingDotSort(double[] array) {
         Arrays.sort(array);
         System.out.println(array[array.length - 1]);
     }
 
+    /**
+     * @description handles the sorting of array and prints the largest number in the array/
+     * @param array
+     */
     public void biggestNumberBySorting(double[] array){
         double temp;
         for (int i =1; i < array.length; i++){
@@ -28,6 +36,7 @@ public class Question1 {
                 }
             }
         }
+        //Print the largest based on the last value in the array
         System.out.println(array[array.length - 1]);
     }
 

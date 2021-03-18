@@ -9,6 +9,10 @@ public class Question2 {
         averageOfAll(array);
     }
 
+    /**
+     * @description calculate the average of the numbers divided by 6
+     * @param array
+     */
     public static void averageOfAll(double[] array) {
         ArrayList<Double> arrayList = new ArrayList<>();
         double sum = 0;

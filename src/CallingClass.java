@@ -26,12 +26,22 @@ class CalledClass{
     double breadth;
     double height;
 
+    /**
+     * @description class constructor in initializing the variables passed to the class
+     * @param length
+     * @param breath
+     * @param height
+     */
     public CalledClass(double length, double breath, double height){
         this.breadth = breath;
         this.length = length;
         this.height =height;
     }
 
+    /**
+     * @description calculate the volume
+     * @return double
+     */
     public double computeVolume(){
         return breadth * height * breadth;
     }
