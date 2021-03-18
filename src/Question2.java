@@ -22,6 +22,6 @@ public class Question2 {
         for (int i = 0; i < arrayList.size(); i++){
             sum =sum + arrayList.get(i);
         }
-        System.out.println(sum);
+        System.out.println(sum/arrayList.size());
     }
 }

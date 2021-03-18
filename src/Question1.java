@@ -7,6 +7,7 @@ public class Question1 {
 //    }
 
     public static void main(String[] args) {
+        //if you have the time you can decide to add 100 number sha, but me I no get time
         double[] array = {1.1, 3.4, 6.2, 3.1};
         Question1 question1 = new Question1();
         question1.biggestNumberBySorting(array);
