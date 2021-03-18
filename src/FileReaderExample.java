@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileReaderExample {
     public static void main(String[] args) {
         String fileName = "cit417test.txt";
-        String line =null;
+        String line;
         try{
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader =new BufferedReader(fileReader);
