@@ -14,7 +14,7 @@ public class Question2 {
     public static void averageOfAll() {
         ArrayList<Integer> arrayList = new ArrayList<>();
         double sum = 0;
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 1; i < 20000; i++) {
             if (i % 6 == 0) {
                 arrayList.add(i);
             }
