@@ -6,6 +6,7 @@ public class Question2 {
 
     public static void main(String[] args) {
         averageOfAll();
+        simplerApproach();
     }
 
     /**
@@ -23,5 +24,17 @@ public class Question2 {
             sum =sum + arrayList.get(i);
         }
         System.out.println(sum/arrayList.size());
+    }
+
+    public static void simplerApproach(){
+        double sum = 0;
+        int counter =0;
+        for (int i =1; i <=20000; i++){
+            if (i%6 == 0){
+                sum += i;
+                counter++;
+            }
+        }
+        System.out.println("Average is :"+sum/counter);
     }
 }
