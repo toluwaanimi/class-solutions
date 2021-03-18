@@ -25,7 +25,7 @@ public class Area {
      * @return
      */
     public double calculate(double length, double breath){
-        return length* breath;
+        return 3.14 * length* breath;
     }
 
     /**
@@ -35,6 +35,6 @@ public class Area {
      * @return
      */
     public static double calculateStatic(double length, double breath){
-        return length* breath;
+        return 3.14* length* breath;
     }
 }
