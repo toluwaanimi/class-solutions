@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class Question1 {
 
-    public Question1() {
-
-    }
+//    public Question1() {
+//
+//    }
 
     public static void main(String[] args) {
         double[] array = {1.1, 3.4, 6.2, 3.1};
