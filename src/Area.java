@@ -21,20 +21,20 @@ public class Area {
     /**
      * @description  this method handles the calculation of area.
      * @param length
-     * @param breath
+     * @param breadth
      * @return
      */
-    public double calculate(double length, double breath){
-        return 3.14 * length* breath;
+    public double calculate(double length, double breadth){
+        return 3.14 * length* breadth;
     }
 
     /**
      * @description this method is an example of static class in implementing the calculate function
      * @param length
-     * @param breath
+     * @param breadth
      * @return
      */
-    public static double calculateStatic(double length, double breath){
-        return 3.14* length* breath;
+    public static double calculateStatic(double length, double breadth){
+        return 3.14* length* breadth;
     }
 }
