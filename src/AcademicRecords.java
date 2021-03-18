@@ -28,7 +28,7 @@ public class AcademicRecords {
     }
 
     /**
-     * @description this method handles the printing of registered courses password to the method
+     * @description this method handles the printing of registered courses passed to the method
      * @param course1
      * @param course2
      * @param course3
